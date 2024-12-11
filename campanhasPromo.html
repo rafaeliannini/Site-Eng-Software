@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supermercado Inteligente</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <a class="titulo" href="cadastrado.html">Supermercado Inteligente</a>
+        <p></p>
+        <nav class="navbar">
+            <ul>
+                <li><a href="cadastrosGeral.html">Cadastros</a></li>
+                <li><a href="controleEstoque.html">Controle de Estoque</a></li>
+                <li><a href="verCampanhas.html">Campanhas Promocionais</a></li>
+                <li><a href="index.html">Sair</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="campanhas">
+            <h2 class="middle">Campanhas Promocionais</h2>
+            <form class="form" id="campaign-form">
+                <label for="campaign-name">Nome da Campanha:</label>
+                <input type="text" id="campaign-name" name="campaign-name" placeholder="Digite o nome da campanha" required>
+
+                <label for="campaign-products">Produtos Incluídos:</label>
+                <input type="text" id="campaign-products" name="campaign-products" placeholder="Ex.: Arroz, Sabonete" required>
+
+                <label for="discount">Desconto (%):</label>
+                <input type="number" id="discount" name="discount" placeholder="Digite o desconto" required>
+
+                <button type="submit">Cadastrar Campanha</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <h1>&copy; 2024 Supermercado Inteligente. Todos os direitos reservados.</h1>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supermercado Inteligente</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <a class="titulo" href="cadastrado.html">Supermercado Inteligente</a>
+        <p></p>
+        <nav class="navbar">
+            <ul>
+                <li><a href="cadastrosGeral.html">Cadastros</a></li>
+                <li><a href="controleEstoque.html">Controle de Estoque</a></li>
+                <li><a href="verCampanhas.html">Campanhas Promocionais</a></li>
+                <li><a href="index.html">Sair</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="estoque">
+            <h2 class="middle">Controle de Estoque</h2>
+            <table class="inventory-table">
+                <thead>
+                    <tr>
+                        <th>Produto</th>
+                        <th>Categoria</th>
+                        <th>Quantidade</th>
+                        <th>Fornecedor</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Arroz</td>
+                        <td>Alimentos</td>
+                        <td>200</td>
+                        <td>Fornecedor A</td>
+                    </tr>
+                    <tr>
+                        <td>Sabonete</td>
+                        <td>Higiene</td>
+                        <td>150</td>
+                        <td>Fornecedor B</td>
+                    </tr>
+                    <tr>
+                        <td>Feijão</td>
+                        <td>Alimentos</td>
+                        <td>120</td>
+                        <td>Fornecedor C</td>
+                    </tr>
+                    <tr>
+                        <td>Refrigerante</td>
+                        <td>Bebidas</td>
+                        <td>300</td>
+                        <td>Fornecedor D</td>
+                    </tr>
+                    <tr>
+                        <td>Shampoo</td>
+                        <td>Higiene</td>
+                        <td>80</td>
+                        <td>Fornecedor E</td>
+                    </tr>
+                    <tr>
+                        <td>Leite</td>
+                        <td>Bebidas</td>
+                        <td>250</td>
+                        <td>Fornecedor F</td>
+                    </tr>
+                    <tr>
+                        <td>Manteiga</td>
+                        <td>Alimentos</td>
+                        <td>90</td>
+                        <td>Fornecedor G</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="middle">
+                <button onclick="location.href='cadastroProduto.html'">Cadastrar Produtos</button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <h1>&copy; 2024 Supermercado Inteligente. Todos os direitos reservados.</h1>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

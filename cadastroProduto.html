@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supermercado Inteligente</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <a class="titulo" href="cadastrado.html">Supermercado Inteligente</a>
+        <p></p>
+        <nav class="navbar">
+            <ul>
+                <li><a href="cadastrosGeral.html">Cadastros</a></li>
+                <li><a href="controleEstoque.html">Controle de Estoque</a></li>
+                <li><a href="verCampanhas.html">Campanhas Promocionais</a></li>
+                <li><a href="index.html">Sair</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="cadastro-produtos">
+            <h2 class="middle">Cadastro de Produtos</h2>
+            <form class="form" id="product-form">
+                <label for="product-name">Nome do Produto:</label>
+                <input type="text" id="product-name" name="product-name" placeholder="Digite o nome do produto" required>
+
+                <label for="product-price">Preço:</label>
+                <input type="number" id="product-price" name="product-price" placeholder="Digite o preço" required>
+
+                <label for="product-category">Categoria:</label>
+                <select id="product-category" name="product-category">
+                    <option value="alimentos">Alimentos</option>
+                    <option value="bebidas">Bebidas</option>
+                    <option value="higiene">Higiene</option>
+                </select>
+
+                <label for="supplier">Fornecedor:</label>
+                <select id="supplier" name="supplier">
+                    <option value="FornecedorA">Fornecedor A</option>
+                    <option value="FornecedorB">Fornecedor B</option>
+                    <option value="FornecedorC">Fornecedor C</option>
+                </select>
+                <button type="submit">Cadastrar Produto</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <h1>&copy; 2024 Supermercado Inteligente. Todos os direitos reservados.</h1>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

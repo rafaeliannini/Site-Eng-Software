@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supermercado Inteligente</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <a class="titulo" href="cadastrado.html">Supermercado Inteligente</a>
+        <p></p>
+        <nav class="navbar">
+            <ul>
+                <li><a href="cadastrosGeral.html">Cadastros</a></li>
+                <li><a href="controleEstoque.html">Controle de Estoque</a></li>
+                <li><a href="verCampanhas.html">Campanhas Promocionais</a></li>
+                <li><a href="index.html">Sair</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="promocoes">
+            <h2 class="middle">Campanhas Promocionais Ativas</h2>
+            <table class="inventory-table">
+                <thead>
+                    <tr>
+                        <th>Nome da Campanha</th>
+                        <th>Produtos Incluídos</th>
+                        <th>Desconto (%)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Promoção de Verão</td>
+                        <td>Refrigerante, Sorvete</td>
+                        <td>20</td>
+                    </tr>
+                    <tr>
+                        <td>Semana da Higiene</td>
+                        <td>Sabonete, Shampoo</td>
+                        <td>15</td>
+                    </tr>
+                    <tr>
+                        <td>Feirão dos Alimentos</td>
+                        <td>Arroz, Feijão, Manteiga</td>
+                        <td>10</td>
+                    </tr>
+                    <tr>
+                        <td>Bebidas em Dobro</td>
+                        <td>Refrigerante, Leite</td>
+                        <td>25</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="middle">
+                <button onclick="location.href='campanhasPromo.html'">Cadastrar Campanhas</button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <h1>&copy; 2024 Supermercado Inteligente. Todos os direitos reservados.</h1>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Fornecedores</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <a class="titulo" href="cadastrado.html">Supermercado Inteligente</a>
+        <p></p>
+        <nav class="navbar">
+            <ul>
+                <li><a href="cadastrosGeral.html">Cadastros</a></li>
+                <li><a href="controleEstoque.html">Controle de Estoque</a></li>
+                <li><a href="verCampanhas.html">Campanhas Promocionais</a></li>
+                <li><a href="index.html">Sair</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="cadastro-fornecedores">
+            <h2 class="middle">Cadastro de Fornecedores</h2>
+            <form class="form" id="supplier-form">
+                <label for="supplier-name">Nome do Fornecedor:</label>
+                <input type="text" id="supplier-name" name="supplier-name" placeholder="Digite o nome do fornecedor" required>
+
+                <label for="supplier-email">Email:</label>
+                <input type="text" id="supplier-email" name="supplier-email" placeholder="Digite o email do fornecedor" required>
+
+                <label for="supplier-phone">Telefone:</label>
+                <input type="text" id="supplier-phone" name="supplier-phone" placeholder="Digite o telefone do fornecedor" required>
+
+                <label for="supplier-address">Endereço:</label>
+                <input type="text" id="supplier-address" name="supplier-address" placeholder="Digite o endereço do fornecedor" required>
+
+                <button type="submit">Cadastrar Fornecedor</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <h1>&copy; 2024 Supermercado Inteligente. Todos os direitos reservados.</h1>
+    </footer>
+</body>
+</html>
